@@ -11,11 +11,17 @@ body {
 }
 
 .calculadora input{
-    width: 100%;
+    width: 90%;
     height: 50px;
     font-size: 20px;
     text-align: right;
     margin-bottom: 10px;
+}
+.btn{
+    width: 22%;
+    height: 50px;
+    font-size: 20px;
+    margin: 4px;
 }
 
 
