@@ -3,6 +3,9 @@ let btnPulsado,operacion,operador1=0,operador2=0,resultado;
 $(".btn").click(function () {
     btnPulsado = $(this).html();
     switch (btnPulsado) {
+        case "CE":
+            $("#pantalla").val($("#pantalla").val().slice(0, -1));  
+            break;
         case "C":
             operador1 = 0;
             operador2 = 0;
