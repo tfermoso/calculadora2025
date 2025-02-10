@@ -1,7 +1,7 @@
+let btnPulsado,operacion,operador1=0,operador2=0,resultado;
+
 $(".btn").click(function () {
-    let btnPulsado = $(this).html();
-    let operador1 = 0, operador2 = 0, operacion;
-    let resultado;
+    btnPulsado = $(this).html();
     switch (btnPulsado) {
         case "C":
             operador1 = 0;
