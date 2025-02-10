@@ -1,4 +1,4 @@
-$(".btn").click(()=>{
+$(".btn").click(function(){
 
-    $("#pantalla").val(3)
+    $("#pantalla").val($(this).html())
 });
