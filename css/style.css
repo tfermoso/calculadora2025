@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.calculadora{
+    width: 40%;
+    border:2px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.calculadora input{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .calculadora{
+        width: 90%;
+    }
+    
+}
